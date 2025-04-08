@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>INICIO JAVA</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Quem ganha, ganha em dolar!</h2>
+        <p>Que tal converter esse valor?</p>
+        <button id="botao" onclick="conversor">Converta aqui!</button>
+      </div>
+
+      <div class="botaotema">
+        <button id="tema" onclick="tema">Tema</button>
+      </div>
+    </div>
+
+    <h1>Aula Legal sobre jc</h1>
+  </body>
+  <script>
+    //caixa de dialogo, uma variável
+    //valordolar = prompt("Digite um valor em dolar");
+    //variavel
+    //umdolar = 5.91;
+    //funcao embutida que exibe o valor do resultado, uma variavel vezes outra variavel
+    document.getElementById("botao");
+    addEventListener("click", function () {
+      valordolar = prompt("Digite um valor em dolar");
+      umdolar = 5.91;
+      alert("R$" + valordolar * umdolar);
+    });
+
+    document.getElementById("tema");
+    addEventListener("click", function () {
+    let fundo = document.body
+
+    fundo.style.backgroundColor = 'black'
+    fundo.classList.contains("ativo")
+    });
+  </script>
+</html>
